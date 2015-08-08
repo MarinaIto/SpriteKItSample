@@ -14,7 +14,6 @@
     /* Setup your scene here */
     SKLabelNode *myLabel = [SKLabelNode labelNodeWithFontNamed:@"Chalkduster"];
     
-    
     myLabel.text = @"Hello, Dillen!";
     myLabel.fontSize = 55;
     myLabel.position = CGPointMake(CGRectGetMidX(self.frame),
@@ -34,7 +33,7 @@
         
         if(node != nil && [node.name isEqualToString:@"rect"]) {
             
-            //非表示
+            //非表示にする
              [node removeFromParent];
                 } else {
         
