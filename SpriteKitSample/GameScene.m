@@ -11,7 +11,7 @@
 @implementation GameScene
 
 -(void)didMoveToView:(SKView *)view {
-    /* Setup your scene here */
+
     SKLabelNode *myLabel = [SKLabelNode labelNodeWithFontNamed:@"Chalkduster"];
     
     myLabel.text = @"Hello, Dillen!";
@@ -33,7 +33,7 @@
         
         if(node != nil && [node.name isEqualToString:@"rect"]) {
             
-            //非表示にする
+            //非表示にする　　　
              [node removeFromParent];
                 } else {
         
